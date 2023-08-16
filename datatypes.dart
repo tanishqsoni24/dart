@@ -25,5 +25,12 @@ main(){
 
   dynamic am9 = 'Hello';
   var am10 = 'Hello';
+  print('$am9 | $am10');  
+  // am10 = 100; is wrong but :
+  am9 = 100; // is correct...
+  print('$am9 | $am10');  
+  am9 = null;
   print('$am9 | $am10');
+  
+  // every thing is object in dart
 }
